@@ -8,7 +8,6 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.runner.notification.RunListener;
 
 public class OlaMundoTest {
 
