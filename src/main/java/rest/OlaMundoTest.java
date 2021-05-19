@@ -36,11 +36,22 @@ public class OlaMundoTest {
     public void novaFormaValidarRestAssured(){
         given()
                 //Pré condições
-        .when()
+                .when()
                 //Ações
-            .get("https://jsonplaceholder.typicode.com/posts/5")
-        .then()
+                .get("https://jsonplaceholder.typicode.com/posts/5")
+                .then()
                 //Validações
-            .statusCode(200);
+                .statusCode(200);
     }
+
+    @Test
+    public void deveTrazerTodosComentarios(){
+                given()
+                .when()
+                        .get("https://jsonplaceholder.typicode.com/comments")
+                .then()
+                        .statusCode(200);
+    }
+
+
 }
