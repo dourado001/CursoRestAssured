@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/aquino/UserJsonTestAquino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/aquino/UserJsonTestAquino.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
       <recent name="rest.aquino" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserJsonTestAquino.deveTrazerJsonLista">
-    <configuration name="OlaMundoTestAquino.deveValidarBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserJsonTestAquino">
+    <configuration name="UserJsonTestAquino" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -55,9 +56,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.OlaMundoTestAquino" />
-      <option name="METHOD_NAME" value="deveValidarBody" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.UserJsonTestAquino" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserJsonTestAquino" />
+        <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerJsonPrimeiroNivel" />
         <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerJsonLista" />
         <item itemvalue="JUnit.UserJsonTestAquino.ddeveTrazerJsonLista" />
         <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerResponseSegundoNivel" />
-        <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerJsonPrimeiroNivel" />
-        <item itemvalue="JUnit.OlaMundoTestAquino.deveValidarBody" />
       </list>
     </recent_temporary>
   </component>
@@ -154,22 +154,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542931881" />
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom" timestamp="1626910757677">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1629322804982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1626910757677" />
-    <state width="1493" height="142" key="GridCell.Tab.0.center" timestamp="1626910757676">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
+    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1629322804982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1626910757676" />
-    <state width="1493" height="142" key="GridCell.Tab.0.left" timestamp="1626910757675">
+    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1629322804982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1626910757675" />
-    <state width="1493" height="142" key="GridCell.Tab.0.right" timestamp="1626910757676">
+    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1629322804982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="142" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1626910757676" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
