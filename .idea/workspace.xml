@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/aquino/UserJsonTestAquino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/aquino/UserJsonTestAquino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/aquino/VerbosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/aquino/VerbosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/aquino/VerbosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/aquino/VerbosTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +47,8 @@
       <recent name="rest.aquino" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserJsonTestAquino">
-    <configuration name="UserJsonTestAquino" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VerbosTest">
+    <configuration name="VerbosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -56,13 +57,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.UserJsonTestAquino" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserJsonTestAquino.ddeveTrazerJsonLista" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveAlterarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -71,14 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.UserJsonTestAquino" />
-      <option name="METHOD_NAME" value="ddeveTrazerJsonLista" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
+      <option name="METHOD_NAME" value="deveAlterarUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserJsonTestAquino.deveTrazerJsonLista" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveCustomizarURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.UserJsonTestAquino" />
-      <option name="METHOD_NAME" value="deveTrazerJsonLista" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
+      <option name="METHOD_NAME" value="deveCustomizarURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserJsonTestAquino.deveTrazerJsonPrimeiroNivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveRemoverUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.UserJsonTestAquino" />
-      <option name="METHOD_NAME" value="deveTrazerJsonPrimeiroNivel" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
+      <option name="METHOD_NAME" value="deveRemoverUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserJsonTestAquino.deveTrazerResponseSegundoNivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.naoDeveDeletarUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.UserJsonTestAquino" />
-      <option name="METHOD_NAME" value="deveTrazerResponseSegundoNivel" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
+      <option name="METHOD_NAME" value="naoDeveDeletarUsuarioInexistente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserJsonTestAquino" />
-        <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerJsonPrimeiroNivel" />
-        <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerJsonLista" />
-        <item itemvalue="JUnit.UserJsonTestAquino.ddeveTrazerJsonLista" />
-        <item itemvalue="JUnit.UserJsonTestAquino.deveTrazerResponseSegundoNivel" />
+        <item itemvalue="JUnit.VerbosTest" />
+        <item itemvalue="JUnit.VerbosTest.naoDeveDeletarUsuarioInexistente" />
+        <item itemvalue="JUnit.VerbosTest.deveRemoverUsuario" />
+        <item itemvalue="JUnit.VerbosTest.deveCustomizarURL" />
+        <item itemvalue="JUnit.VerbosTest.deveAlterarUsuario" />
       </list>
     </recent_temporary>
   </component>
@@ -154,30 +155,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542931881" />
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1629322804982">
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1629853877475">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
-    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1629322804982">
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
+    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1629853877475">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
-    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1629322804982">
+    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
+    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1629853877475">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
-    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1629322804982">
+    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1629853877475">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629322804982" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542545232" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1626817468570">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1629757460058">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1626817468570" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1629757460058" />
+    <state x="209" y="113" key="new project wizard" timestamp="1629405438469">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="113" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1629405438469" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CursoRestAssured$OlaMundoTestAquino_deveConhecerMatchersHamcrest.ic" NAME="OlaMundoTestAquino.deveConhecerMatchersHamcrest Coverage Results" MODIFIED="1626543268207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
