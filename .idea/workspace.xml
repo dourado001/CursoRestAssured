@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rest/aquino/Serializacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/aquino/Serializacao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +47,8 @@
       <recent name="rest.aquino" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Serializacao.deveSerializar">
-    <configuration name="Serializacao.deveSalvarComMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FileTest.deveFazerUploadArquivo">
+    <configuration name="FileTest.deveFazerUploadArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -57,14 +57,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.Serializacao" />
-      <option name="METHOD_NAME" value="deveSalvarComMap" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.FileTest" />
+      <option name="METHOD_NAME" value="deveFazerUploadArquivo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serializacao.deveSalvarUsuarioUsandoDeserializacaoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.deveObrigarEnvioArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +73,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.Serializacao" />
-      <option name="METHOD_NAME" value="deveSalvarUsuarioUsandoDeserializacaoObjeto" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.FileTest" />
+      <option name="METHOD_NAME" value="deveObrigarEnvioArquivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormatoComunicacao.deveTestarHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.aquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest.aquino" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.FormatoComunicacao" />
+      <option name="METHOD_NAME" value="deveTestarHeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormatoComunicacao.deveTestarQueryParametrizavel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.aquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest.aquino" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.FormatoComunicacao" />
+      <option name="METHOD_NAME" value="deveTestarQueryParametrizavel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,45 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serializacao.deveSerializarObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.aquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.Serializacao" />
-      <option name="METHOD_NAME" value="deveSerializarObjeto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Serializacao.deveUsarSerializacao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.aquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.Serializacao" />
-      <option name="METHOD_NAME" value="deveUsarSerializacao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileTest.deveFazerUploadArquivo" />
+        <item itemvalue="JUnit.FileTest.deveObrigarEnvioArquivo" />
+        <item itemvalue="JUnit.FormatoComunicacao.deveTestarHeader" />
+        <item itemvalue="JUnit.FormatoComunicacao.deveTestarQueryParametrizavel" />
         <item itemvalue="JUnit.Serializacao.deveSerializar" />
-        <item itemvalue="JUnit.Serializacao.deveUsarSerializacao" />
-        <item itemvalue="JUnit.Serializacao.deveSalvarComMap" />
-        <item itemvalue="JUnit.Serializacao.deveSalvarUsuarioUsandoDeserializacaoObjeto" />
-        <item itemvalue="JUnit.Serializacao.deveSerializarObjeto" />
       </list>
     </recent_temporary>
   </component>
@@ -160,34 +160,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1630370772749" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1630454017286">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1632440744226">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1630454017286" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1630454017286">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1632440744226" />
+    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1632440744226">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1630454017286" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1630454017285">
+    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1632440744226" />
+    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1632440744225">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1630454017285" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1630454017286">
+    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1632440744225" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1632440744226">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1630454017286" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1632440744226" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542545232" />
-    <state x="277" y="60" key="SettingsEditor" timestamp="1630454292369">
+    <state x="277" y="60" key="SettingsEditor" timestamp="1632440741515">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1630454292369" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1630455081704">
+    <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1632440741515" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1631056672890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1630455081704" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1631056672890" />
+    <state x="399" y="114" width="738" height="606" key="find.popup" timestamp="1632351547032">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="399" y="114" width="738" height="606" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1632351547032" />
     <state x="209" y="113" key="new project wizard" timestamp="1629405438469">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
