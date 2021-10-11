@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/aquino/Serializacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/aquino/Serializacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <recent name="rest.aquino" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileTest.deveFazerUploadArquivo">
+  <component name="RunManager" selected="JUnit.ValidandoSchema">
     <configuration name="FileTest.deveFazerUploadArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
@@ -64,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest.deveObrigarEnvioArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidandoSchema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -73,14 +73,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.FileTest" />
-      <option name="METHOD_NAME" value="deveObrigarEnvioArquivo" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidandoSchema.deveNaoValidarSquemaXLM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.aquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest.aquino" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="METHOD_NAME" value="deveNaoValidarSquemaXLM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormatoComunicacao.deveTestarHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidandoSchema.deveValidarSquemaJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.FormatoComunicacao" />
-      <option name="METHOD_NAME" value="deveTestarHeader" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="METHOD_NAME" value="deveValidarSquemaJson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormatoComunicacao.deveTestarQueryParametrizavel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidandoSchema.deveValidarSquemaXLM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -105,24 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.FormatoComunicacao" />
-      <option name="METHOD_NAME" value="deveTestarQueryParametrizavel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Serializacao.deveSerializar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.aquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.Serializacao" />
-      <option name="METHOD_NAME" value="deveSerializar" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="METHOD_NAME" value="deveValidarSquemaXLM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidandoSchema" />
+        <item itemvalue="JUnit.ValidandoSchema.deveValidarSquemaJson" />
+        <item itemvalue="JUnit.ValidandoSchema.deveNaoValidarSquemaXLM" />
+        <item itemvalue="JUnit.ValidandoSchema.deveValidarSquemaXLM" />
         <item itemvalue="JUnit.FileTest.deveFazerUploadArquivo" />
-        <item itemvalue="JUnit.FileTest.deveObrigarEnvioArquivo" />
-        <item itemvalue="JUnit.FormatoComunicacao.deveTestarHeader" />
-        <item itemvalue="JUnit.FormatoComunicacao.deveTestarQueryParametrizavel" />
-        <item itemvalue="JUnit.Serializacao.deveSerializar" />
       </list>
     </recent_temporary>
   </component>
@@ -160,22 +159,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1630370772749" />
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1632440744226">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1633967048329">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1632440744226" />
-    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1632440744226">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1633967048329" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1633967048328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1632440744226" />
-    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1632440744225">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1633967048328" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1633967048327">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1632440744225" />
-    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1632440744226">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1633967048327" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1633967048329">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1632440744226" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1633967048329" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
