@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/aquino/VerbosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/aquino/VerbosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rest/aquino/VerbosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rest/aquino/VerbosTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -47,8 +47,8 @@
       <recent name="rest.aquino" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VerbosTest">
-    <configuration name="VerbosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ValidandoSchema">
+    <configuration name="FileTest.deveFazerUploadArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +57,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.FileTest" />
+      <option name="METHOD_NAME" value="deveFazerUploadArquivo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidandoSchema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.aquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest.aquino" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveAlterarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidandoSchema.deveNaoValidarSquemaXLM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
-      <option name="METHOD_NAME" value="deveAlterarUsuario" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="METHOD_NAME" value="deveNaoValidarSquemaXLM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveCustomizarURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidandoSchema.deveValidarSquemaJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
-      <option name="METHOD_NAME" value="deveCustomizarURL" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="METHOD_NAME" value="deveValidarSquemaJson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveRemoverUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidandoSchema.deveValidarSquemaXLM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -104,24 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
-      <option name="METHOD_NAME" value="deveRemoverUsuario" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerbosTest.naoDeveDeletarUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.aquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.VerbosTest" />
-      <option name="METHOD_NAME" value="naoDeveDeletarUsuarioInexistente" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="METHOD_NAME" value="deveValidarSquemaXLM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VerbosTest" />
-        <item itemvalue="JUnit.VerbosTest.naoDeveDeletarUsuarioInexistente" />
-        <item itemvalue="JUnit.VerbosTest.deveRemoverUsuario" />
-        <item itemvalue="JUnit.VerbosTest.deveCustomizarURL" />
-        <item itemvalue="JUnit.VerbosTest.deveAlterarUsuario" />
+        <item itemvalue="JUnit.ValidandoSchema" />
+        <item itemvalue="JUnit.ValidandoSchema.deveValidarSquemaJson" />
+        <item itemvalue="JUnit.ValidandoSchema.deveNaoValidarSquemaXLM" />
+        <item itemvalue="JUnit.ValidandoSchema.deveValidarSquemaXLM" />
+        <item itemvalue="JUnit.FileTest.deveFazerUploadArquivo" />
       </list>
     </recent_temporary>
   </component>
@@ -151,34 +151,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1626542931881">
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1630453393072">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542931881" />
-    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1629853877475">
+    <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1630453393072" />
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1630370772749">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
-    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1629853877475">
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1630370772749" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1633967048329">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
-    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1629853877475">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1633967048329" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1633967048328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
-    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1629853877475">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1633967048328" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1633967048327">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629853877475" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1633967048327" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1633967048329">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1633967048329" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542545232" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1629757460058">
+    <state x="277" y="60" key="SettingsEditor" timestamp="1632440741515">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1629757460058" />
+    <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1632440741515" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1631056672890">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1631056672890" />
+    <state x="399" y="114" width="738" height="606" key="find.popup" timestamp="1632351547032">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="399" y="114" width="738" height="606" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1632351547032" />
     <state x="209" y="113" key="new project wizard" timestamp="1629405438469">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
