@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +42,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="rest.jsonplaceholder" />
       <recent name="rest.aquino" />
+      <recent name="rest.jsonplaceholder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidandoSchema">
-    <configuration name="FileTest.deveFazerUploadArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AuthTestWeatherMap">
+    <configuration name="AuthTestAPIAquino" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -57,29 +56,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.FileTest" />
-      <option name="METHOD_NAME" value="deveFazerUploadArquivo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidandoSchema" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.aquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidandoSchema.deveNaoValidarSquemaXLM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTestAPIAquino.deveValidarAutenticacaoBasica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +71,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
-      <option name="METHOD_NAME" value="deveNaoValidarSquemaXLM" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
+      <option name="METHOD_NAME" value="deveValidarAutenticacaoBasica" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidandoSchema.deveValidarSquemaJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTestAPIAquino.deveValidarAutenticacaoBasica2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +87,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
-      <option name="METHOD_NAME" value="deveValidarSquemaJson" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
+      <option name="METHOD_NAME" value="deveValidarAutenticacaoBasica2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidandoSchema.deveValidarSquemaXLM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTestAPIAquino.deveValidarAutenticacaoBasicaChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -120,20 +103,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.ValidandoSchema" />
-      <option name="METHOD_NAME" value="deveValidarSquemaXLM" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
+      <option name="METHOD_NAME" value="deveValidarAutenticacaoBasicaChallenge" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTestWeatherMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.aquino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest.aquino" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestWeatherMap" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidandoSchema" />
-        <item itemvalue="JUnit.ValidandoSchema.deveValidarSquemaJson" />
-        <item itemvalue="JUnit.ValidandoSchema.deveNaoValidarSquemaXLM" />
-        <item itemvalue="JUnit.ValidandoSchema.deveValidarSquemaXLM" />
-        <item itemvalue="JUnit.FileTest.deveFazerUploadArquivo" />
+        <item itemvalue="JUnit.AuthTestWeatherMap" />
+        <item itemvalue="JUnit.AuthTestAPIAquino" />
+        <item itemvalue="JUnit.AuthTestAPIAquino.deveValidarAutenticacaoBasicaChallenge" />
+        <item itemvalue="JUnit.AuthTestAPIAquino.deveValidarAutenticacaoBasica2" />
+        <item itemvalue="JUnit.AuthTestAPIAquino.deveValidarAutenticacaoBasica" />
       </list>
     </recent_temporary>
   </component>
@@ -159,26 +157,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1630370772749" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1633967048329">
+    <state width="1493" height="400" key="GridCell.Tab.0.bottom" timestamp="1634299473631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1633967048329" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1633967048328">
+    <state width="1493" height="400" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1634299473631" />
+    <state width="1493" height="400" key="GridCell.Tab.0.center" timestamp="1634299473630">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1633967048328" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1633967048327">
+    <state width="1493" height="400" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1634299473630" />
+    <state width="1493" height="400" key="GridCell.Tab.0.left" timestamp="1634299473630">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1633967048327" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1633967048329">
+    <state width="1493" height="400" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1634299473630" />
+    <state width="1493" height="400" key="GridCell.Tab.0.right" timestamp="1634299473631">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1633967048329" />
+    <state width="1493" height="400" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1634299473631" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542545232" />
+    <state x="558" y="139" key="RollbackChangesDialog" timestamp="1634299380279">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="558" y="139" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1634299380279" />
     <state x="277" y="60" key="SettingsEditor" timestamp="1632440741515">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
