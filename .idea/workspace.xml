@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="360a185a-592f-4b47-8db3-527e5cd66257" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/OlaMundoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/OlaMundoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +47,8 @@
       <recent name="rest.jsonplaceholder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthTestWeatherMap">
-    <configuration name="AuthTestAPIAquino" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.APISeuBarriga.deveIncluirConta">
+    <configuration name="APISeuBarriga.deveIncluirConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -56,29 +57,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthTestAPIAquino.deveValidarAutenticacaoBasica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoRestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.aquino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
-      <option name="METHOD_NAME" value="deveValidarAutenticacaoBasica" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.APISeuBarriga" />
+      <option name="METHOD_NAME" value="deveIncluirConta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTestAPIAquino.deveValidarAutenticacaoBasica2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="APISeuBarriga.naoDeveAcessarSemToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +73,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
-      <option name="METHOD_NAME" value="deveValidarAutenticacaoBasica2" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.APISeuBarriga" />
+      <option name="METHOD_NAME" value="naoDeveAcessarSemToken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTestAPIAquino.deveValidarAutenticacaoBasicaChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthJWT.deveLogarComJWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +89,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestAPIAquino" />
-      <option name="METHOD_NAME" value="deveValidarAutenticacaoBasicaChallenge" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthJWT" />
+      <option name="METHOD_NAME" value="deveLogarComJWT" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTestWeatherMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthJWT.deveTrazerContas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoRestAssured" />
       <extension name="coverage">
         <pattern>
@@ -119,19 +105,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest.aquino" />
-      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthTestWeatherMap" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="rest.aquino.AuthJWT" />
+      <option name="METHOD_NAME" value="deveTrazerContas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OlaMundoTest.deveCadastrarPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.OlaMundoTest" />
+      <option name="METHOD_NAME" value="deveCadastrarPost" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthTestWeatherMap" />
-        <item itemvalue="JUnit.AuthTestAPIAquino" />
-        <item itemvalue="JUnit.AuthTestAPIAquino.deveValidarAutenticacaoBasicaChallenge" />
-        <item itemvalue="JUnit.AuthTestAPIAquino.deveValidarAutenticacaoBasica2" />
-        <item itemvalue="JUnit.AuthTestAPIAquino.deveValidarAutenticacaoBasica" />
+        <item itemvalue="JUnit.APISeuBarriga.deveIncluirConta" />
+        <item itemvalue="JUnit.OlaMundoTest.deveCadastrarPost" />
+        <item itemvalue="JUnit.APISeuBarriga.naoDeveAcessarSemToken" />
+        <item itemvalue="JUnit.AuthJWT.deveTrazerContas" />
+        <item itemvalue="JUnit.AuthJWT.deveLogarComJWT" />
       </list>
     </recent_temporary>
   </component>
@@ -157,37 +160,39 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1630370772749" />
-    <state width="1493" height="400" key="GridCell.Tab.0.bottom" timestamp="1634299473631">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="340" key="GridCell.Tab.0.bottom" timestamp="1635979819167">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1634299473631" />
-    <state width="1493" height="400" key="GridCell.Tab.0.center" timestamp="1634299473630">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="340" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1635979819167" />
+    <state width="1493" height="400" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1634311503737" />
+    <state width="1323" height="340" key="GridCell.Tab.0.center" timestamp="1635979819166">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1634299473630" />
-    <state width="1493" height="400" key="GridCell.Tab.0.left" timestamp="1634299473630">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="340" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1635979819166" />
+    <state width="1493" height="400" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1634311503736" />
+    <state width="1323" height="340" key="GridCell.Tab.0.left" timestamp="1635979819166">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1634299473630" />
-    <state width="1493" height="400" key="GridCell.Tab.0.right" timestamp="1634299473631">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="340" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1635979819166" />
+    <state width="1493" height="400" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1634311503735" />
+    <state width="1323" height="340" key="GridCell.Tab.0.right" timestamp="1635979819166">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1493" height="400" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1634299473631" />
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1626542545232">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="340" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1635979819166" />
+    <state width="1493" height="400" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1634311503736" />
+    <state x="496" y="123" key="RollbackChangesDialog" timestamp="1635979815951">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1626542545232" />
-    <state x="558" y="139" key="RollbackChangesDialog" timestamp="1634299380279">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
+    <state x="496" y="123" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1635979815951" />
     <state x="558" y="139" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1634299380279" />
     <state x="277" y="60" key="SettingsEditor" timestamp="1632440741515">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1632440741515" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1631056672890">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="414" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1635782803701">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="414" y="213" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1635782803701" />
     <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1631056672890" />
     <state x="399" y="114" width="738" height="606" key="find.popup" timestamp="1632351547032">
       <screen x="0" y="0" width="1536" height="834" />

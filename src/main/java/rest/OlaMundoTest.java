@@ -1,11 +1,14 @@
 package rest;
 
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
+import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -45,12 +48,23 @@ public class OlaMundoTest {
     }
 
     @Test
-    public void deveTrazerTodosComentarios(){
+    public void deveCadastrarPost(){
                 given()
+                        .log().all()
+                        .contentType(ContentType.JSON)
+                        .body("  {\n" +
+                                "    \"userId\": 1,\n" +
+                                "    \"id\": 1,\n" +
+                                "    \"title\": \"TOP\",\n" +
+                                "    \"body\": \"Testando\"\n" +
+                                "  }")
                 .when()
-                        .get("https://jsonplaceholder.typicode.com/comments")
+                        .post("https://jsonplaceholder.typicode.com/posts")
                 .then()
-                        .statusCode(200);
+                        .log().all()
+                        .statusCode(201)
+                        .body("title", is("TOP"))
+                ;
     }
 
 
